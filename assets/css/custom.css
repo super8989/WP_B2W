@@ -168,6 +168,13 @@ section h3 {
   color: white;
 }
 
+#instructor {
+  background: white url('../img/brad-elvis.png') 100% -10px no-repeat;
+}
+
+
+
+
 /* CUSTOM ICON SPRITE */
 
 i.ci {
