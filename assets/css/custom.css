@@ -3,6 +3,7 @@
 Green:      #79b044
 Salmon:     #dd5638
 Blue Grey:  #3e4249
+Light Grey: #d3d3d3
 
 */
 
@@ -38,7 +39,7 @@ h4 {
 }
 
 button, input, .btn, a.btn {
-  color: white;
+  color: #d3d3d3;
   text-rendering: optimizeLegibility;
 }
 
@@ -61,7 +62,7 @@ img {
   background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
   min-height: 500px;
   padding: 40px 0;
-  color: white;
+  color: #d3d3d3;
   }
 
   #hero article {
@@ -112,17 +113,34 @@ img {
 }
 
 #price-timeline h4 small {
-  color: white;
+  color: #d3d3d3;
   display: block;
 }
 
 
 /* Layout */
 
+section {
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+}
+
+section h2 {
+  margin: 20px 0 20px;
+}
+
+section h3 {
+  margin: 30px 0 10px;
+}
+
 #optin {
   background: #3e4249;
   padding: 20px 0;
   font-size: 1.2em;
+  color: #d3d3d3;
 }
 
 #optin p {
