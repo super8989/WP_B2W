@@ -37,6 +37,11 @@ h4 {
   font-size: 18px;
 }
 
+button, input, .btn, a.btn {
+  color: white;
+  text-rendering: optimizeLegibility;
+}
+
 .btn {
   font-weight: bold;
 }
@@ -44,6 +49,10 @@ h4 {
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* HERO */
@@ -105,4 +114,17 @@ h4 {
 #price-timeline h4 small {
   color: white;
   display: block;
+}
+
+
+/* Layout */
+
+#optin {
+  background: #3e4249;
+  padding: 20px 0;
+  font-size: 1.2em;
+}
+
+#optin p {
+  margin: 7px 0 0 0;
 }
