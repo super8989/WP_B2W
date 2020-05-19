@@ -99,6 +99,19 @@ img {
   color: white;
 }
 
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
 /* HERO */
 
 #hero {
@@ -242,6 +255,17 @@ section h3 {
   font-weight: normal;
 }
 
+#kudos {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+}
 
 
 /* CUSTOM ICON SPRITE */
