@@ -56,6 +56,49 @@ img {
   max-width: 100%;
 }
 
+.modal-content {
+  background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+  background: rgba(223, 223, 223, 0.973);
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 5px 20px 0;
+  border-radius: 50%;
+}
+
+.badge.social.twitter {
+  color: #55acee;
+}
+
+.badge.social.facebook {
+  color: #3b5998;
+}
+
+.badge.social.linkedin {
+  color: #0e76a8;
+}
+
+
+.badge.social.twitter:hover {
+  background: #55acee;
+  color: white;
+}
+
+.badge.social.facebook:hover {
+  background: #3b5998;
+  color: white;
+}
+
+.badge.social.linkedin:hover {
+  background: #0e76a8;
+  color: white;
+}
+
 /* HERO */
 
 #hero {
@@ -172,6 +215,19 @@ section h3 {
   background: white url('../img/brad-elvis.png') 100% -10px no-repeat;
 }
 
+#instructor h2 {
+  margin: 0 0 20px;
+}
+
+#instructor .num {
+  font-size: 30px;
+  color: white;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  background: #dd5638;
+  border-radius: 50%;
+}
 
 
 
