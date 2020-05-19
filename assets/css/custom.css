@@ -220,13 +220,26 @@ section h3 {
 }
 
 #instructor .num {
+  display: table;
   font-size: 30px;
   color: white;
   height: 140px;
   width: 140px;
+  line-height: 30px;
   text-align: center;
   background: #dd5638;
   border-radius: 50%;
+}
+
+#instructor .num .num-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#instructor .num span {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 
