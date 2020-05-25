@@ -1,0 +1,272 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv='Content-Type' content="text/html; charset=UTF-8" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name='description' content=''>
+  <meta name='author' content=''>
+  <link rel="icon" href="assets/img/favicon.ico">
+
+  <title>Blog Post | Bootstrap to WordPress</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/ef53897d55.js" crossorigin="anonymous"></script>
+
+  <!-- Custom Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700;800;900&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!--     
+    font-family: 'Jost', sans-serif;
+
+    font-family: 'Raleway', sans-serif; 
+  -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body class='blog'>
+  <!-- HEADER -->
+  <header class='site-header' role='banner'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+
+
+  <!-- MAIN CONTENT -->
+
+  <div class="container">
+    <div class="row" id='primary'>
+
+      <div id="content" class="col-sm-8">
+        <article class="post">
+          <header>
+            <h1>Blog Title here</h1>
+            <div class="post-details">
+              <i class="fa fa-user"></i> Jason Bourne
+              <i class="fa fa-clock"></i> <time> May 25, 2020</time>
+              <i class="fa fa-folder"></i> <a href="">Tutorials</a>, <a href="">Coding</a>
+              <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>, <a href="">premium</a>, <a href="">another
+                tag</a>, <a href="">more tag</a>
+
+              <div class="post-comments-badge">
+                <a href=""><i class="fa fa-comments"></i> 150</a>
+              </div>
+            </div>
+          </header>
+          <div class="post-image">
+            <img src="assets/img/hero-bg.jpg" alt="Hero image">
+          </div>
+          <div class="post-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dolores animi neque exercitationem modi nesciunt, ab maxime praesentium rerum possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, neque!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed, dolor nisi fugiat at mollitia voluptas voluptate earum architecto similique. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, itaque.</p>
+
+            <h3>Subtitle</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repellat nesciunt. Libero dicta non veritatis molestiae fugit quos rerum quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, exercitationem.</p>
+
+            <h4>Another subtitle</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sunt quisquam fugit deserunt cupiditate nihil tenetur ipsam amet alias nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, atque.</p>
+
+          </div>
+        </article>
+
+      </div>
+
+
+
+
+      <!-- Sidebar -->
+      <aside class='col-sm-4'>
+        <div class="widget">
+          <h4>Join our Mailing List</h4>
+          <p>Keep up-to-date with the latest news and we'll send you something special</p>
+          <button class="btn btn-success btn-lg btn-block" data-toggle='modal' data-target='#myModal'>Click here to
+            subscribe</button>
+        </div>
+
+        <div class="widget">
+          <form role='form' class='search-form'>
+            <label for="sidebar-search" class='sr-only'>Search the blog</label>
+            <input type="text" id='sidebar-search' placeholder="Search the blog...">
+          </form>
+        </div>
+
+        <div class="widget">
+          <h4>About Bootstrap to WordPress</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis delectus nostrum possimus debitis
+            dignissimos asperiores necessitatibus iste cum obcaecati, praesentium voluptates minus iusto id tempora,
+            eius dolore totam. Ratione, eligendi!</p>
+        </div>
+
+        <div class="widget">
+          <h4>Recent Posts</h4>
+          <ul>
+            <li><a href="">Blog post 1</a></li>
+            <li><a href="">Blog post 2</a></li>
+            <li><a href="">Blog post 3</a></li>
+            <li><a href="">Blog post 4</a></li>
+            <li><a href="">Blog post 5</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="">Category 1</a></li>
+            <li><a href="">Category 2</a></li>
+            <li><a href="">Category 3</a></li>
+            <li><a href="">Category 4</a></li>
+            <li><a href="">Category 5</a></li>
+            <li><a href="">Category 6</a></li>
+          </ul>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- SIGN UP  -->
+  <section id='signup' data-type='background' data-speed='4'>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+          <h2>Are you ready to take your coding skills to the <strong>next level</strong>?</h2>
+          <p><a href="#" class="btn btn-lg btn-block btn-success">Yes, sign me up!</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 align-self-center">
+          <p>
+            <a href="/"><img src="assets/img/logo.png" alt="Bootstrap to Wordpress"></a>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <ul class="nav">
+            <li class='nav-item'><a class='nav-link' href="">Home</a></li>
+            <li class='nav-item'><a class='nav-link active' href="">Blog</a></li>
+            <li class='nav-item'><a class='nav-link' href="">Resources</a></li>
+            <li class='nav-item'><a class='nav-link' href="">Contact</a></li>
+            <li class='nav-item signup-link'><a class='nav-link' href="">Sign up now</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 align-self-center">
+          <p class="float-right">
+            &copy; 2020
+          </p>
+        </div>
+
+      </div>
+
+  </footer>
+
+
+  <!-- MODAL -->
+  <div class='modal fade' id='myModal'>
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">
+            <i class="fa fa-envelope"></i> Subscribe to our mailing list
+          </h4>
+          <button type='button' class='close' data-dismiss='modal'>
+            <span aria-hidden='true'>&times;</span>
+            <span class='sr-only'>Close</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Simply enter your name and email!</p>
+
+          <form action="" class="form-inline" role='form'>
+            <div class="form-group">
+              <label for="subscribe-name" class="sr-only">Your first name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <label for="subscribe-email" class="sr-only">Your email</label>
+              <input type="text" class="form-control" id="subscribe-email" placeholder="Email">
+            </div>
+
+            <input type="submit" class="btn btn-danger" value='Subscribe!'>
+          </form>
+
+          <hr>
+
+          <p><small>You many unsubscribe at any time.</small></p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- BOOTSTRAP CORE JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
